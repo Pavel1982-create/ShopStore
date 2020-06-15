@@ -848,5 +848,15 @@ letter-spacing: 1.4px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: #6c6c6c;
-    margin-top: 100px;
+    margin-top: 59px;
+}
+
+.input-contayner{
+    position: relative;
+}
+
+.input-contayner .mail{
+    position: absolute;
+    right: 105px;
+    top: 45px;
 }
