@@ -1,0 +1,478 @@
+.top-container{
+    width: 1366px;
+    height: 360px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+}
+
+.header-contayner{
+    display: grid;
+    grid-template-columns: 7fr 5fr 1fr;
+    box-sizing: border-box;
+}
+
+.main-logo{
+    width: 185px;
+    height: 22px;
+    padding-left: 98px;
+    padding-top: 63px;
+}
+
+.header-nav{
+    width: 490px;
+    padding-top: 67px;
+    margin-right: 21px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header-link{
+    /* Style for "HOME     P" */
+    
+color: #8c8c8c;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+/* Text style for "HOME" */
+color: #212121;
+font-family: "Montserrat - Bold";
+font-weight: 700;
+letter-spacing: 1.4px;
+/* Text style for "PRODUCTS" */
+font-family: "Montserrat Light";
+font-weight: 300;
+letter-spacing: 1.4px;
+}
+
+.search-search{
+    width: 23px;
+    height: 23px;
+    padding-top: 63px;
+    padding-right: 167px;
+}
+
+.range{
+    font-family: Montserrat;
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 100;
+    margin-left: 101px;
+    margin-top: 168px;
+}
+
+.big-container{
+    width: 1366px;
+    height: 3392px;
+    margin: 0 auto;
+}
+
+.range-nav{
+    width: 647px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 105px;
+    margin-top: 71px;
+    /* Text styles for "All " */
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #212121;
+    /* Text styles for "HOME OFFICE FURNITURE MODERN CLASSIC" */
+    color: #6c6c6c;
+}
+
+.all{
+    width: 75px;
+    height: 3px;
+    background-color: #212121;
+    margin-left: 98px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.product-11{
+    width: 370px;
+    height: 370px;
+    margin-left: 98px;
+    margin-bottom: 30px;
+}
+
+.product-21{
+    width: 370px;
+    height: 370px;
+    margin-left: 30px;
+}
+
+.product-31{
+    width: 370px;
+    height: 370px;
+    margin-left: 30px;
+    margin-right: 98px;
+}
+
+.product-41{
+    width: 370px;
+    height: 370px;
+    margin-left: 98px;
+    margin-bottom: 30px;
+}
+
+.product-5{
+    width: 370px;
+    height: 370px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.product-6{
+    width: 370px;
+    margin-right: 98px;
+}
+
+.arrows{
+    width: 42px;
+    height: 29px;
+    margin-top: 71px;
+    margin-left: 672px;
+}
+
+.images-arrows{
+    font-family: icomoon;
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #212121;
+}
+
+.two-chairs{
+    display: flex;
+    justify-content: center;
+    height: 683px;
+    margin-top: 120px;
+}
+
+.left{
+    width: 683px;
+    height: 683px;
+    background-image: url(img/promo-img1.png);
+}
+
+.right{
+    width: 683px;
+    height: 683px;
+    background-image: url(img/promo-img.png);
+}
+.left-center{
+    display: flex;
+    flex-direction: column;
+}
+
+.exclusive{
+    /* Style for "exclusive" */
+    width: 115px;
+    height: 13px;
+    color: #1e88e5;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "exclusive" */
+    color: #1e88e5;
+    letter-spacing: 1.8px;
+    margin-top: 228px;
+    margin-left: 51px;
+}
+
+.fishnet-chair-left{
+    width: 236px;
+    height: 28px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 52px;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+.left-text{
+    width: 374px;
+    height: 36px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+    margin-left: 50px;
+    margin-bottom: 34px;
+}
+
+.button-left{
+    width: 212px;
+    height: 46px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    margin-left: 50px;
+}
+
+.button-left-text{
+    color: #212121;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.04px;
+    text-transform: uppercase;
+    /* Text style for "Order Us" */
+    color: #212121;
+    letter-spacing: 3.6px;
+}
+
+.footer-bottom{
+    width: 1366px;
+    height: 384px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-left{
+    
+}
+
+.contact-us{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+    margin-left: 99px;
+    margin-bottom: 24px;
+    margin-top: 120px;
+    margin-right: 168px;
+}
+
+.left-text-top{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #212121;
+    margin-left: 97px;
+}
+
+.australia{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #212121;
+    margin-left: 97px;
+}
+
+.left-text-bottom{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #212121;
+    margin-left: 97px;
+}
+
+.mail{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #212121;
+    margin-left: 97px;
+}
+
+.useful-information{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+    margin-top: 120px;
+    margin-bottom: 25px;
+}
+
+.touch{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+    margin-top: 120px;
+    margin-right: 237px;
+}
+
+.two-blocks{
+    display: flex;
+}
+
+.left-blocks{
+    margin-right: 103px;
+}
+.sales-terms{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.customer-care{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.delivery{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.architect-accounts{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.careers{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.exchanges{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.right-text{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #212121;
+    width: 363px;
+    height: 36px;
+    margin-top: 24px;
+}
+
+.user_email{
+    width: 370px;
+    background-color: #ffffff;
+    border: 1.0px solid #d9dee1;
+    margin-top: 26px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #6c6c6c;
+    padding-left: 19px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.most{
+    display: flex;
+    justify-content: space-around;
+}
+
+.most-left{
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6c6c6c;
+    margin-left: 98px;
+    margin-top: 67px;
+}
+
+.social-icon{
+    width: 129px;
+    height: 28px;
+    font-family: icomoon;
+    font-size: 28px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #6c6c6c;
+    margin-top: 59px;
+}
+
+.most-right{
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6c6c6c;
+    margin-top: 59px;
+}
+
+.input-contayner{
+    position: relative;
+}
+
+.input-contayner .mail{
+    position: absolute;
+    right: 105px;
+    top: 45px;
+}
